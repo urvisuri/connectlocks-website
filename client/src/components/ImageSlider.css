@@ -3,13 +3,45 @@
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 2rem 0;
-  background: #f5f5f5;
+  padding: 0;
+  background: #fff;
+  /* Dark background better for images */
 }
 
 .slider-image {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   object-fit: cover;
-  border-radius: 10px;
+  /* Fills screen width */
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Custom Arrow Styles */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+  color: white;
+  opacity: 0.7;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  opacity: 1;
 }

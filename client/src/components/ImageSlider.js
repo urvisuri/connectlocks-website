@@ -6,10 +6,8 @@ import "./ImageSlider.css";
 
 const ImageSlider = () => {
   const images = [
-    "/assets/slider/slide1.jpg",
-    "/assets/slider/slide2.jpg",
-    "/assets/slider/slide3.jpg",
-    "/assets/slider/slide4.jpg",
+    "/assets/home/slider-new-1.png",
+    "/assets/home/slider-new-2.png"
   ];
 
   const settings = {
@@ -17,10 +15,10 @@ const ImageSlider = () => {
     infinite: true,
     speed: 2500,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
   };
 
   return (

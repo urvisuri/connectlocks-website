@@ -1,0 +1,44 @@
+.content-slider-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content-slide {
+    padding: 20px;
+}
+
+.content-slide h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.content-slide p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Custom dots color */
+.slick-dots li button:before {
+    color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #000;
+}
+
+/* Ensure arrows are visible */
+.content-slider-wrapper .slick-prev:before,
+.content-slider-wrapper .slick-next:before {
+    color: #000;
+}

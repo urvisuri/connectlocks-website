@@ -15,7 +15,7 @@ const ProductList = () => {
       .catch((err) => console.error(err));
   }, []);
 
-  
+
 
   return (
     <div className="product-list">
@@ -27,7 +27,7 @@ const ProductList = () => {
         <div className="grid">
           {products.map(product => (
             <div className="card" key={product._id}>
-              <img src={product.image} alt={product.name} className="product-image"/>
+              <img src={product.image} alt={product.name} className="product-image" />
               <h3>{product.name}</h3>
               <p>₹ {product.price}</p>
               <Link to={`/product/${product._id}`}>
