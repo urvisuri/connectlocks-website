@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import NewYearOverlay from './components/NewYearOverlay';
 import ProductsPage from './components/ProductsPage';
 import CategoryPage from './components/CategoryPage';
 import AdminDashboard from './components/AdminDashboard';
@@ -10,6 +11,7 @@ import Career from './components/Career';
 function App() {
   return (
     <Router>
+      <NewYearOverlay />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductsPage />} />
