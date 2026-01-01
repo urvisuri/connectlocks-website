@@ -45,3 +45,12 @@
 .slick-next:hover:before {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .slider-image {
+    height: 50vh;
+    object-fit: contain;
+    background-color: #f5f5f5;
+    /* Light grey background for padding */
+  }
+}

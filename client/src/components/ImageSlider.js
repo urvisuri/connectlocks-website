@@ -6,6 +6,7 @@ import "./ImageSlider.css";
 
 const ImageSlider = () => {
   const images = [
+    "/assets/home/new-year-2025.jpg",
     "/assets/home/slider-new-1.png",
     "/assets/home/slider-new-2.png"
   ];
