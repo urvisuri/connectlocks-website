@@ -7,7 +7,9 @@ import "./ImageSlider.css";
 const ImageSlider = () => {
   const images = [
     "/assets/home/slider-new-1.png",
-    "/assets/home/slider-new-2.png"
+    "/assets/home/slider-new-2.png",
+    "/assets/home/brass-series.png",
+    "/assets/home/smooth-unlock.png"
   ];
 
   const settings = {
