@@ -1,4 +1,4 @@
-// client/src/index.js - Updated at 2026-01-15
+﻿// client/src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
