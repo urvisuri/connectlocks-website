@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import './Home.css'; // Import shared styles
 import catalogImage from '../assets/download_qr_code.png';
 
 const Downloads = () => {

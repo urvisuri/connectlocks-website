@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './InquiryModal.css';
 
 const InquiryModal = ({ onClose }) => {
   const [name, setName] = useState('');

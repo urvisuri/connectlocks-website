@@ -1,6 +1,5 @@
 // src/components/AdminDashboard.js
 import React, { useState, useEffect } from 'react';
-import './AdminDashboard.css';
 
 const AdminDashboard = () => {
   const [data, setData] = useState([]);
@@ -67,7 +66,7 @@ const AdminDashboard = () => {
               <td>{entry.state || '-'}</td>
               <td>{entry.city || '-'}</td>
               <td>{entry.createdAt ? new Date(entry.createdAt).toLocaleString() : '-'}</td>
-              
+
             </tr>
           ))}
         </tbody>

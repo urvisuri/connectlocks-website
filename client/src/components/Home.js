@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FaInstagram, FaLinkedin, FaYoutube, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
-import './Home.css';
 import Sidebar from './Sidebar';
 
 import logo from '../assets/connectlockslogo.png';

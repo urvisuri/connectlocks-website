@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './CategoryPage.css';
 import logo from '../assets/connectlockslogo.png';
 import Sidebar from './Sidebar';
 import { FaInstagram, FaLinkedin, FaYoutube, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';

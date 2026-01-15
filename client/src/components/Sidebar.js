@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Sidebar.css';
 
 const Sidebar = ({ onInquiryClick }) => {
   const [showCategories, setShowCategories] = useState(false);

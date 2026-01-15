@@ -1,7 +1,6 @@
 // CategoryProducts.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './CategoryProducts.css'; // ✅ Ensure this CSS file is imported
 
 const CategoryProducts = ({ selectedCategory }) => {
   const [filteredProducts, setFilteredProducts] = useState([]);

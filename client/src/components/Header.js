@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { FaInstagram, FaLinkedin, FaYoutube, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import Sidebar from './Sidebar';
 import logo from '../assets/connectlockslogo.png';
-/* Ensure Home.css is imported somewhere or here for styles */
-import './Home.css';
 
 const Header = () => {
     const [selectedState, setSelectedState] = useState(localStorage.getItem('state') || '');

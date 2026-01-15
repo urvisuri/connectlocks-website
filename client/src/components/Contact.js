@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Home.css';
 
 const Contact = () => {
     // Basic form state (optional logic)
